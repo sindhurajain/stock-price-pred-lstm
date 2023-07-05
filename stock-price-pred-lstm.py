@@ -250,3 +250,8 @@ plt.ylabel('Close')
 plt.legend()
 plt.title('Test Set')
 plt.show()
+
+
+from sklearn.metrics import r2_score
+r2 = r2_score(new_y_test, test_predictions)
+r2
